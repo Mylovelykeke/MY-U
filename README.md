@@ -1,10 +1,10 @@
 # MY-U
 工作问题收集，资料保存学习的文档
 
-##npm使用淘宝镜像
+## npm使用淘宝镜像
 npm install -g cnpm --registry=https://registry.npm.taobao.org
 
-##vue项目搭建
+## vue项目搭建
 
 安装node.js,检测版本node -v,还要检测包管理工具npm -v
 
