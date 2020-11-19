@@ -60,3 +60,11 @@ title可加可不加
  ```
     代码内容
  ```
+ # git reset soft / git reset hard 的 区别
+
+ reset soft 回退到commit 之前。自己的更新依旧保留;
+ reset hard 回退到仓库最近的提交，本地保留不存在。
+
+ reset hard 操作 想恢复自己的提交  
+ git reflog 找到相应的提交记录。 
+ git reset --hard 
